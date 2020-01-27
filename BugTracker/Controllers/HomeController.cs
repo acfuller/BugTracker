@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using BugTracker.Models;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using BugTracker.Models;
-using Microsoft.AspNetCore.Authentication;
+using System;
+using System.Diagnostics;
 using System.Globalization;
+using System.Threading.Tasks;
 
 namespace BugTracker.Controllers
 {
@@ -50,12 +48,12 @@ namespace BugTracker.Controllers
         {
             return View();
         }
-        
-       // Unused view action
-       // public IActionResult ()
-       // {
-       //    return View();
-       // }
+
+        // Unused view action
+        // public IActionResult ()
+        // {
+        //    return View();
+        // }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
