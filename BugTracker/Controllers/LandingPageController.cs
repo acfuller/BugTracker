@@ -17,5 +17,8 @@ namespace BugTracker.Views.LandingPage
         {
             return View();
         }
+
     }
+
+
 }
