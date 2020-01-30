@@ -9,7 +9,7 @@ Are you a programmer? Do you always write perfect code? Of course you do! But mo
 
 2.1 Customers
 
-Any persons who can at least write a “Hello World!” statement.
+Any persons who are capable of writing a “Hello World!” statement.
 
 2.2 Functionality
 
@@ -21,11 +21,11 @@ It will be launched as a Web-based application.
 
 2.4 Development Responsibility I, Adam Fuller, would be developing the software and I am responsible for the creation of the database and all the other related stuff.
 
-Goals and Scopes
+Goals and Scopes:
 My goal is to get a fully functioning bug tracker to use of my and any other programmers projects. The initial scope will allow a maximum of 700 people to have an account at once.
 
 Deliverables (maybe)
 Feature specification Product design Test plan Development document Source code End product
 
 Technical Process
-Following would be the languages I would use to develop my application within the stipulated time period: Front-end development: Jquery, HTML, CSS, JAVASCRIPT. Back-end development: .NET, MySQL.
+The following would be the languages I would use to develop my application within the stipulated time period: Front-end development: Jquery, HTML, CSS, JAVASCRIPT. Back-end development: .NET, SQL Server.
