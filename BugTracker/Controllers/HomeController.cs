@@ -6,9 +6,12 @@ using System;
 using System.Diagnostics;
 using System.Globalization;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace BugTracker.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

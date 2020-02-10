@@ -9,9 +9,15 @@ using BugTracker.Data;
 using BugTracker.Models;
 using Microsoft.AspNetCore.Authentication;
 using System.Globalization;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace BugTracker.Controllers
 {
+
+
+
+    [Authorize]
     public class ProjectsController : Controller
     {
         private readonly BugTrackerContext _context;
